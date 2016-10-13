@@ -13,12 +13,7 @@ const Promise = require('bluebird');
 //   return (game.genre.length > 1);
 // });
 
-const dataFiltered = ['dum', 'dum']
-
-const first50 = dataFiltered.slice(11000,11050);
-const second50 = dataFiltered.slice(51,101)
-const third50 = dataFiltered.slice(140, 151)
-const fourth50 = dataFiltered.slice(300, 400)
+const first50 = [1,2,3]
 
 
 const arrayOfFunctionsThatReturnPromises = () => {
